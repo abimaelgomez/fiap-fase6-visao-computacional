@@ -18,7 +18,7 @@ Detector de **animais peçonhentos** (**cobras** e **aranhas**) para a seguranç
 
 | Entrega | Conteúdo | Abrir |
 |---|---|---|
-| **1** | Dataset (40 + 40 imagens, 32/4/4), rotulação no Make Sense, YOLOv5 customizado com 30 × 60 épocas, validação, teste e conclusões | [`AbimaelGomes_rm573528_pbl_fase6.ipynb`](AbimaelGomes_rm573528_pbl_fase6.ipynb) · [Colab](https://colab.research.google.com/github/abimaelgomez/fiap-fase6-visao-computacional/blob/main/AbimaelGomes_rm573528_pbl_fase6.ipynb) |
+| **1** | Dataset (200 + 200 imagens, 160/20/20), rotulação (Open Images + pacote de revisão no Make Sense), YOLOv5 customizado com 30 × 60 épocas, validação, teste e conclusões | [`AbimaelGomes_rm573528_pbl_fase6.ipynb`](AbimaelGomes_rm573528_pbl_fase6.ipynb) · [Colab](https://colab.research.google.com/github/abimaelgomez/fiap-fase6-visao-computacional/blob/main/AbimaelGomes_rm573528_pbl_fase6.ipynb) |
 | **2** | YOLOv5 customizado × YOLOv5 padrão (COCO) × CNN treinada do zero: precisão, facilidade de uso, tempo de treino e de inferência | [`AbimaelGomes_rm573528_pbl_fase6_entrega2.ipynb`](AbimaelGomes_rm573528_pbl_fase6_entrega2.ipynb) · [Colab](https://colab.research.google.com/github/abimaelgomez/fiap-fase6-visao-computacional/blob/main/AbimaelGomes_rm573528_pbl_fase6_entrega2.ipynb) |
 
 O passo a passo completo, os resultados e a análise crítica estão nos notebooks.

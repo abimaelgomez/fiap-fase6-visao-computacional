@@ -42,7 +42,7 @@
 
 A **FarmTech Solutions** apresenta a um cliente do agronegócio um sistema de visão computacional capaz de reconhecer **cobras** e **aranhas** em imagens de câmeras instaladas em galpões, currais e áreas de colheita, para disparar alertas antes de um acidente.
 
-O projeto treina um detector **YOLOv5** com um dataset próprio (200 imagens por classe, divididas em 160 treino / 20 validação / 20 teste), compara duas durações de treinamento (**30 × 60 épocas**) e confronta o modelo com outras duas abordagens: o **YOLOv5 padrão (COCO)** e uma **CNN treinada do zero**.
+O projeto treina um detector **YOLOv5** com um dataset próprio de **390 imagens** (312 de treino, 40 de validação e 38 de teste), montado a partir do Open Images e **rotulado com revisão no Make Sense AI**, compara duas durações de treinamento (**30 × 60 épocas**) e confronta o modelo com outras duas abordagens: o **YOLOv5 padrão (COCO)** e uma **CNN treinada do zero**.
 
 > Toda a metodologia, o código executado, os resultados e a análise crítica estão nos notebooks abaixo. Este README apenas guia o leitor até eles.
 
@@ -69,6 +69,9 @@ O projeto treina um detector **YOLOv5** com um dataset próprio (200 imagens por
 fiap-fase6-visao-computacional/
 ├── AbimaelGomes_rm573528_pbl_fase6.ipynb            ← Entrega 1: YOLOv5 customizado (30 × 60 épocas)
 ├── AbimaelGomes_rm573528_pbl_fase6_entrega2.ipynb   ← Entrega 2: comparação de três abordagens
+├── makesense/
+│   ├── exportado_yolo.zip                           ← rótulos revisados no Make Sense (formato YOLO)
+│   └── assinaturas_treino.json                      ← verificação de que as imagens são as revisadas
 └── README.md
 ```
 
